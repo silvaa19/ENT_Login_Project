@@ -4371,6 +4371,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/source-loader@npm:^8.4.4":
+  version: 8.6.2
+  resolution: "@storybook/source-loader@npm:8.6.2"
+  dependencies:
+    es-toolkit: "npm:^1.22.0"
+    estraverse: "npm:^5.2.0"
+    prettier: "npm:^3.1.1"
+  peerDependencies:
+    storybook: ^8.6.2
+  checksum: 07a59eb51d75bfb6814bce69c9ab8841212e93afe0216b87487af01fe6430a57eaf0ec54081f69b41914886871e818a92922e6a7a420b8fd09af3273b6bcf28b
+  languageName: node
+  linkType: hard
+
 "@storybook/source-loader@patch:@storybook/source-loader@npm%3A8.4.4#~/.yarn/patches/@storybook-source-loader-npm-8.4.4-55dafc88e2.patch":
   version: 8.4.4
   resolution: "@storybook/source-loader@patch:@storybook/source-loader@npm%3A8.4.4#~/.yarn/patches/@storybook-source-loader-npm-8.4.4-55dafc88e2.patch::version=8.4.4&hash=2358ba"
@@ -16810,7 +16823,7 @@ __metadata:
     "@storybook/addon-webpack5-compiler-babel": "npm:^3.0.3"
     "@storybook/react": "npm:^8.4.4"
     "@storybook/react-webpack5": "npm:^8.4.4"
-    "@storybook/source-loader": "patch:@storybook/source-loader@npm%3A8.4.4#~/.yarn/patches/@storybook-source-loader-npm-8.4.4-55dafc88e2.patch"
+    "@storybook/source-loader": "npm:^8.4.4"
     "@types/jest": "npm:^29.5.2"
     "@types/react": "npm:^18.3.3"
     "@typescript-eslint/eslint-plugin": "npm:^5.60.0"
