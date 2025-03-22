@@ -29,3 +29,6 @@ The ENT_Login_Project is a mobile application designed for the Entrepreneurship 
 1. **Navigate to the backend directory**:
    ```sh
    cd ENT_Login_Project/backend
+   ```
+
+   
