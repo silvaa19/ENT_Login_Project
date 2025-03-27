@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 
 // Load environment variables from .env file
-dotenv.config({ path: './test.env' });
+dotenv.config();
 
 const app = express();
 
@@ -37,7 +37,8 @@ app.post('/api/auth/signin', (req, res) => {
     };
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-        return res.status(500).json({ error: 'Error sending email' });
+        console.error('Error sending email:', error);
+        return res.status(500).json({ error: 'Error sending email', details: error });
       }
       res.json({ email, isAdmin });
     });

@@ -98,5 +98,15 @@
         "@auth0/auth0-react": "^2.3.0",
         "axios": "^1.7.9",
         "next-auth": "^4.24.11"
-    }
+    },
+    "version": "1.0.0",
+    "description": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com/).",
+    "main": ".prettierrc.js",
+    "directories": {
+        "doc": "docs",
+        "example": "examples"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
